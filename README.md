@@ -29,27 +29,27 @@ private $_error_info;
 private $_anything_information;
 
 function set_data($data) {
-	$this->_data = data;
+	$this->_data = $data;
 }
 
 
 function set_output($output) {
-	$this->_output = output;
+	$this->_output = $output;
 }
 
 
 function set_error($error) {
-	$this->_error = error;
+	$this->_error = $error;
 }
 
 
 function set_error_info($error_info) {
-	$this->_error_info = error_info;
+	$this->_error_info = $error_info;
 }
 
 
 function set_anything_information($anything_information) {
-	$this->_anything_information = anything_information;
+	$this->_anything_information = $anything_information;
 }
 
 
