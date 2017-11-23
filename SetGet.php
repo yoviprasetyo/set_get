@@ -15,7 +15,7 @@ class SetGet
 {
 private $function_nameset = "
 	function set_%name%(\$%name%) {
-		\$this->_%name% = %name%;
+		\$this->_%name% = \$%name%;
 	}\n
 ";
 private $function_nameget = "
